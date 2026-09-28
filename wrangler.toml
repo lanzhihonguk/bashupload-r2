@@ -7,7 +7,7 @@ workers_dev = true
 
 # 绑定域名
 routes = [
-	{ pattern = "grokhub.online", custom_domain = true }
+	{ pattern = "oss.grokhub.online", custom_domain = true }
 ]
 
 # R2 存储桶绑定
@@ -44,5 +44,4 @@ enabled = true
 # 定时任务 - 每5分钟执行一次清理
 [triggers]
 crons = ["*/5 * * * *"]
-
 
